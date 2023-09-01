@@ -1,9 +1,11 @@
 
 import './App.css';
+import ExpenseForm from './components/ExpenseForm';
 
 function App() {
   return (
     <div className="App">
+      <ExpenseForm />
 
     </div>
   );
