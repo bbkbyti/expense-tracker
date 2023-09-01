@@ -8,7 +8,7 @@ export default function ExpenseList() {
         <div>
             <h2>Expense List</h2>
             {expenses.map((expense) => (
-                <ExpenseItem key={expenses.id} expense={expense} />
+                <ExpenseItem key={expense.id} expense={expense} />
             ))}
         </div>
     )
